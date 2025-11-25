@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Playables;
-public class Triggerscript : MonoBehaviour
+public class DoorTriggerscript : MonoBehaviour
 {
     public PlayableDirector timeLine;
     static int count;
@@ -8,8 +8,8 @@ public class Triggerscript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         count += 1;
-        
-            timeLine.Play();
+        if(count ==1)
+            { timeLine.Play(); }
         
         
     }
