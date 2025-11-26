@@ -8,7 +8,7 @@ public class Triggerscript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         count += 1;
-        
+        Destroy(gameObject);
             timeLine.Play();
         
         
