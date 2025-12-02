@@ -13551,6 +13551,8 @@ PlayableDirector:
     value: {fileID: 521961489}
   - key: {fileID: -2022831388902518195, guid: 7af3841eb7379be4e8a00505be482cbb, type: 2}
     value: {fileID: 1177761537}
+  - key: {fileID: 6820502244973133661, guid: 7af3841eb7379be4e8a00505be482cbb, type: 2}
+    value: {fileID: 1486094375}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &537110222
@@ -14977,11 +14979,11 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628529725}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: c0d780b3e428da543a6f86b205b53a0e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 211aca3269786ad499d09ac5328c0620, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
